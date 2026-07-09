@@ -1,0 +1,10 @@
+# Fast local Linux development args for the banking browser fork.
+# Usage:
+#   gn gen out/banking_dev --args="$(cat docs/fork/args/banking_dev_linux.gn)"
+
+is_debug = false
+is_component_build = true
+symbol_level = 1
+blink_symbol_level = 0
+v8_symbol_level = 0
+use_siso = true
